@@ -26,31 +26,26 @@ int main()
         for(ll i=0; i<n; i++)
             cin>>arr[i];
 
-        ll j =0;
+        ll positive = 0;
         for (ll i = 0; i <n ; i++)
         {
             if(arr[i] > 0)
             {
-                j = i;
-                while (arr[i] > 0  && j < n)
-                {
-                    if(arr[j] < 0)
-                    {
-                        ll temp = min(arr[i], abs(arr[j]));
-                        arr[i] = arr[i] - temp;
-                        arr[j] = arr[j] + temp;
-                        if(arr[j] != 0)
-                            j--;
-                    }
-                    j++;
-                }
+                positive+=arr[i];
             }
+            else if(arr[i] < 0)
+            {
+                ll k=min(positive,-arr[i]);
+                arr[i]+=k;
+                positive-=k;
+            }
+            
         }
         ll sum = 0;
         for (ll i = 0; i < n; i++)
         {
-            if(arr[i] > 0)
-                sum+=arr[i];
+            if(arr[i] < 0)
+                sum+=abs(arr[i]);
         }
         cout<<sum<<"\n";
     }
