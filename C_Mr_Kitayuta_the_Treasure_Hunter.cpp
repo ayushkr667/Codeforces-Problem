@@ -1,7 +1,6 @@
 
 
 #include <bits/stdc++.h>
-
 using namespace std;
 int const N = 3e4 + 10;
 int n, d, a[N], dp[N][600];
