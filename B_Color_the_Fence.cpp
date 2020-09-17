@@ -15,7 +15,6 @@ int main()
         cout<<"-1";
         return 0;
     }
-
     int t = v / mmin;
     while (t --)
     {
