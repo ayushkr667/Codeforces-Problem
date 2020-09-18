@@ -3,7 +3,6 @@ using namespace std;
 #define ll long long
 #define pb push_back
 #define mod 1000000007
-
 ll sum ( ll  k )
 {
     return (k*(k+1))/2;
