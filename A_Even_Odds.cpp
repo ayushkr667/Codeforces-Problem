@@ -14,7 +14,6 @@ else
 {
     mid = n/2;
 }
-
 if(k<=mid)
     cout<<(2*k)-1<<"\n";
 else
