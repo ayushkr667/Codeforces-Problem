@@ -3,7 +3,6 @@ using namespace std;
 #define ll long long
 #define pb push_back
 #define mod 1000000007
-
 vector<int> arr[2001];
 int vis[2001];
 int flag, res;
