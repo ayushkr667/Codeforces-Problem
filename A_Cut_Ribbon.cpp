@@ -3,7 +3,6 @@ using namespace std;
 #define ll long long
 #define pb push_back
 #define mod 1000000007
-
 map<ll, ll> mp;
 
 ll run(ll n, ll a, ll b, ll c)
