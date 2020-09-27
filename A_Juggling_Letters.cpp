@@ -1,10 +1,3 @@
-/*-------------------------------*
-| Name: Ayush Kumar              |
-| College: SOE, CUSAT            |
-| Dept: CSE                      |
-| Site:                          |
-| Email: ayushkr667@gmail.com    |
-*-------------------------------*/
 
 #include<bits/stdc++.h>
 using namespace std;
