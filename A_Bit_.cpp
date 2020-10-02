@@ -12,9 +12,7 @@ while(t--)
     if(s[1]=='+')
         res++;
     else
-    {
         res--;
-    }
 }
 cout<<res<<"\n";
 return 0;
