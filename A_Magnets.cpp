@@ -2,6 +2,7 @@
 using namespace std;
 #define ll long long
 #define pb push_back
+
 int main()
 {
     int n;  cin>>n;
@@ -19,4 +20,5 @@ int main()
     }
     cout<<res<<"\n";
     return 0;
+    
 }
