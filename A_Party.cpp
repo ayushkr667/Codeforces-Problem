@@ -6,6 +6,7 @@ using namespace std;
 vector<int> arr[2001];
 int vis[2001];
 int flag, res;
+
 void dfs(int node)
 {
     flag++;
