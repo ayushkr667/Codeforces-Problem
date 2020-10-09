@@ -7,10 +7,11 @@ using namespace std;
 const int maxn=1e5+10;
 int n;
 //dp1[i] represents the longest single-increasing sequence with i as the right endpoint 
- //dp2[i] represents the longest single-increasing sequence with i as the left endpoint 
+//dp2[i] represents the longest single-increasing sequence with i as the left endpoint 
 int dp1[maxn],dp2[maxn];
 int a[maxn]; 
 int ans,len;
+
 int main()
 {
 	scanf("%d",&n);
