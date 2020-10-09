@@ -1,9 +1,7 @@
 #include <iostream>
 #include <vector>
 #include <cmath>
-
 using namespace std;
-
 int all[1000001]={0};
 
 int main()
@@ -25,9 +23,7 @@ int main()
     }
 
     int t;
-
     cin>>t;
-
     for(int i=0;i<t;i++){
 
         long long lng;
