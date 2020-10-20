@@ -3,6 +3,8 @@ using namespace std;
 #define ll long long
 #define pb push_back
 #define mod 1000000007
+
+
 int main()
 {
     ios_base::sync_with_stdio(false); cin.tie(NULL); cout.tie(NULL);
@@ -62,14 +64,6 @@ int main()
         }
 
         cout<<"Case #"<<test<<": "<<res<<"\n";
-
-
-
-
-
-
-
-
         for(ll i=1; i<=n; i++)
         {
             cout<<l[i]<<" ";
@@ -80,10 +74,6 @@ int main()
             cout<<h[i]<<" ";
         }
 
-
     }
-    
-    
-    
     return 0;
 }
