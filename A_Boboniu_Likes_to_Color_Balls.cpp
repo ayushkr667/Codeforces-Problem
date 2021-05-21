@@ -4,6 +4,7 @@ using namespace std;
 #define pb push_back
 #define mod 1000000007
 int a,b,c,d;
+
 int main()
 {
     int t;
