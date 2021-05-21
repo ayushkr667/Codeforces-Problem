@@ -1,7 +1,8 @@
 #include <iostream>
 using namespace std;
 
-int main() {
+int main() 
+{
 	string s;
 	int flag=1;
 	cin>>s;
